@@ -1,0 +1,167 @@
+ 
+ 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* You can choose any color you like */
+}
+.page__content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.page__content p {
+    /* font-size: 1.5rem; */
+    text-align: center;
+}
+.login-container {
+    width: 90%;
+    max-width: 400px; /* This will make sure the login box is not too wide on large screens */
+    margin: 5% auto; /* This centers the login box vertically and horizontally */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow to lift the login box */
+}
+
+.login-container .main-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #7a7a93;
+}
+
+.login-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.login-input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+  
+.login-button {
+    /* margin-top: 20px; */
+    display: block!important;
+    width: 40%;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #4a90e2; /* Blue color for the button */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin: 20px auto!important;
+}
+.login-button:hover {
+    background-color: #357ab7; /* Darken the button color when hovered */
+}
+.user-agent-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #9b3c3c;
+}
+
+ons-splitter-content {
+    /* max-width: 50%;
+    float: right;
+    margin: 0 auto; */
+}
+
+.dashboard-container {
+    display: flex;
+}
+  
+.custom-sidebar {
+    width: 20%;
+    background-color: #34495e;
+    position: fixed;
+    z-index: 3;
+    /* overflow-y: auto;  */
+}
+  
+.main-content {
+    width: 80%;
+    overflow-y: auto; /* for scroll if content overflows vertically */
+}
+
+.main-content .page__content {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #333;
+    padding: 20px 40px;
+    /* height: 600px; */
+}
+
+.logout-btn {
+    display: inline-block!important;
+    background-color: #fff!important;
+    width: 100%!important;
+    padding: 0 20px!important;
+    color: #333!important;
+    border-radius: 0!important;
+    /* float: right;
+    margin-right: 10%; */
+}
+
+.menu-items {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.reg-button {
+    float: right!important;
+    margin: 20px 60px 0 0!important; 
+}
+
+/* Style the table borders */
+table {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+  
+  /* Style the table header cells */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+/* Style the table data cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+/* Highlight every odd row for better readability */
+tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+/* Add a hover effect to rows */
+tr:hover {
+    background-color: #eaeaea;
+}
+  
+/* Additional styles for the table header */
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+ 
+ 
